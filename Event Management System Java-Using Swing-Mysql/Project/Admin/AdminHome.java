@@ -2,12 +2,6 @@ package Admin;
 
 import java.awt.BorderLayout;
 
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Toolkit;
@@ -123,12 +117,7 @@ public class AdminHome extends JFrame {
 		});
 		btnAllEvents.setBounds(405, 88, 548, 236);
 		contentPane.add(btnAllEvents);
-		/**
-		 * 
-		 * @author Soumyadip Chowdhury
-		 * @github soumyadip007
-		 *
-		 */	
+	
 		JButton btnAddFaculty = new JButton("Add Event Maneger");
 		btnAddFaculty.setFont(new Font("Tahoma", Font.PLAIN, 48));
 		btnAddFaculty.addActionListener(new ActionListener() {
