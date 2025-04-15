@@ -13,16 +13,10 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import Admin.Home;
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
 public class UserLogin extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnNewButton_1;
-	private String user[]={"Soumyadip","Soumya"};
+	private String user[]={"aditya","aditya1972"};
 	private String pass[]={"abcd","abcde"};
 	private JLabel lblNewLabel_1;
 	private JLabel label;
@@ -92,9 +86,3 @@ public class UserLogin extends JFrame {
 	}
 
 }
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
