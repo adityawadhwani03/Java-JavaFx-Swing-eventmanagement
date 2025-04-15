@@ -22,12 +22,6 @@ import javax.swing.border.EmptyBorder;
 
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
 public class Add extends JFrame {
 
 	private JPanel contentPane;
