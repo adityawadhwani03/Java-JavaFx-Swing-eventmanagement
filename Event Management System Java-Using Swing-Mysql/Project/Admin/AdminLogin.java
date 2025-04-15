@@ -20,12 +20,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
+
 public class AdminLogin extends JFrame {
 
 	private JPanel contentPane;
@@ -164,7 +159,6 @@ public class AdminLogin extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		label_1 = new JLabel("");
-	//	label_1.setIcon(new ImageIcon("C:\\Users\\Soumyadeep\\Desktop\\a11.jpg"));
 		label_1.setBounds(0, 0, 1008, 562);
 		contentPane.add(label_1);
 	}
