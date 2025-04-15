@@ -20,12 +20,6 @@ import javax.swing.border.EmptyBorder;
 
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
-/**
- * 
- * @author Soumyadip Chowdhury
- * @github soumyadip007
- *
- */
 public class AddAdmin extends JFrame {
 
 	private JPanel contentPane;
@@ -71,12 +65,7 @@ public class AddAdmin extends JFrame {
 		sub.setFont(new Font("Segoe UI", Font.PLAIN, 37));
 		sub.setBounds(280, 119, 688, 80);
 		contentPane.add(sub);
-		/**
-		 * 
-		 * @author Soumyadip Chowdhury
-		 * @github soumyadip007
-		 *
-		 */
+
 		JLabel lblAdminName = new JLabel("Admin Name:");
 		lblAdminName.setFont(new Font("Segoe UI", Font.PLAIN, 35));
 		lblAdminName.setBounds(32, 26, 285, 81);
